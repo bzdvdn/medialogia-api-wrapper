@@ -20,9 +20,9 @@ client.create_report(search_query='query', author_urls=['http://test.ru'], blog_
 # delete report
 client.delete_report(report_id='<report_id>')
 
-# get reports
+# get posts
 from datetime import datetime
-reports = client.get_posts(report_id='<report_id>',
+posts = client.get_posts(report_id='<report_id>',
                    date_from=datetime(2019, 11, 20, 0, 0, 0),
                    date_to=datetime(2019, 11, 23, 0, 0, 0))
 

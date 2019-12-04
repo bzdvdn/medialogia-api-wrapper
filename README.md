@@ -22,7 +22,7 @@ client.delete_report(report_id='<report_id>')
 
 # get reports
 from datetime import datetime
-reports = client.get_reports(report_id='<report_id>',
+reports = client.get_posts(report_id='<report_id>',
                    date_from=datetime(2019, 11, 20, 0, 0, 0),
                    date_to=datetime(2019, 11, 23, 0, 0, 0))
 
